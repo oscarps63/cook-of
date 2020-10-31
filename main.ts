@@ -159,7 +159,7 @@ mySprite = sprites.create(img`
     . . f f . . . f f f . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-info.setLife(3)
+info.setLife(5)
 game.onUpdate(function () {
     if (chweese && tomato && dou && ingreedint == 3) {
         mySprite.setImage(img`
